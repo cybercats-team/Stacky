@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Solution Items/">
+    <File Path="Readme.md" />
+  </Folder>
+  <Project Path="Stacky/Stacky.vcxproj" Id="8e1ff796-f1c7-4725-ad26-03baf8799a91" />
+  <Project Path="StackyTests/StackyTests.vcxproj" Id="93d4463d-2b83-4e09-a7cb-c0624dfdedb4" />
+</Solution>

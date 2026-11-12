@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\gtest\gtest-all.cc" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)src\gmock\gmock-all.cc" />
+    <ClCompile Include="StackAlloc.test.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Test Files">
+      <UniqueIdentifier>{03994872-eecf-469e-a3d0-7ab6b23f7fb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
