@@ -4,6 +4,7 @@
     <Platform Name="x86" />
   </Configurations>
   <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
     <File Path="Readme.md" />
   </Folder>
   <Project Path="Stacky/Stacky.vcxproj" Id="8e1ff796-f1c7-4725-ad26-03baf8799a91" />

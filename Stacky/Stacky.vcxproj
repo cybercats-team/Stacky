@@ -19,6 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="LinkedList.h" />
     <ClInclude Include="StdInt.h" />
     <ClInclude Include="StackAlloc.h" />
   </ItemGroup>
